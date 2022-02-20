@@ -1,0 +1,29 @@
+.HeaderLink {
+	display: flex;
+	align-items: center;
+
+	&-link {
+		font-style: normal;
+		font-weight: normal;
+		font-size: 12px;
+		line-height: 12px;
+		letter-spacing: 0.2em;
+		text-transform: uppercase;
+		color: #333333;
+		margin-right: 55px;
+		padding: 5px 10px;
+		transition: all ease 0.4s;
+		border-top: 1px solid transparent;
+		border-bottom: 1px solid transparent;
+
+		&:hover {
+			border-top: 1px solid #333333;
+			border-bottom: 1px solid #333333;
+		}
+
+		&.bordered {
+			border-top: 1px solid #333333;
+			border-bottom: 1px solid #333333;
+		}
+	}
+}

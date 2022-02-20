@@ -1,0 +1,19 @@
+.Title {
+	margin-top: 63px;
+
+	&-title1 {
+		font-style: normal;
+		font-weight: 300;
+		font-size: 64px;
+		line-height: 64px;
+		color: #bdbdbd;
+		margin-bottom: 5px;
+	}
+	&-title2 {
+		font-style: normal;
+		font-weight: bold;
+		font-size: 64px;
+		line-height: 64px;
+		color: #333333;
+	}
+}

@@ -1,0 +1,93 @@
+.Gallery {
+	&-inner {
+		overflow: hidden;
+
+		.sliderSection {
+			padding-top: 30px;
+			border-top: 2px solid #f2f2f2;
+			overflow: hidden;
+			height: 100%;
+			padding-bottom: 150px;
+
+			.btnSection {
+				position: relative;
+				top: 30px;
+				width: 30%;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+
+				.startNumb {
+					font-style: normal;
+					font-weight: normal;
+					font-size: 24px;
+					line-height: 24px;
+					color: #333333;
+				}
+
+				.totalNumb {
+					font-style: normal;
+					font-weight: normal;
+					font-size: 24px;
+					line-height: 24px;
+					color: #bdbdbd;
+				}
+
+				.line {
+					width: 2px;
+					height: 35px;
+					background: #e0e0e0;
+					transform: rotate(40deg);
+				}
+
+				&-btn {
+					background: transparent;
+					border: 1px solid #f2f2f2;
+					box-sizing: border-box;
+					padding: 15px;
+					cursor: pointer;
+					margin-left: 25px;
+					height: 55px;
+					transition: all ease 0.4s;
+
+					&:hover {
+						background: #f9f9f9;
+					}
+
+					svg {
+						width: 24px;
+						height: 24px;
+					}
+				}
+			}
+
+			.slick-slider {
+				position: relative;
+				.slick-arrow {
+					display: none !important;
+				}
+				.slick-list {
+					.slick-track {
+						display: flex;
+						.slick-slide {
+							// display: flex;
+							div {
+								display: flex;
+								align-items: center;
+								justify-content: space-between;
+								width: 90%;
+
+								img {
+									width: 200px;
+									height: 250px;
+									margin-right: 24px;
+									margin-bottom: 30px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
