@@ -1,5 +1,59 @@
 .Projects {
-    &-inner {
-        
-    }
+	&-inner {
+		.cards {
+			padding-top: 30px;
+			border-top: 1px solid #f2f2f2;
+		}
+
+		.btnSection {
+			width: 30%;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			margin-bottom: 120px;
+
+			.startNumb {
+				font-style: normal;
+				font-weight: normal;
+				font-size: 24px;
+				line-height: 24px;
+				color: #333333;
+			}
+
+			.totalNumb {
+				font-style: normal;
+				font-weight: normal;
+				font-size: 24px;
+				line-height: 24px;
+				color: #bdbdbd;
+			}
+
+			.line {
+				width: 2px;
+				height: 35px;
+				background: #e0e0e0;
+				transform: rotate(40deg);
+			}
+
+			&-btn {
+				background: transparent;
+				border: 1px solid #f2f2f2;
+				box-sizing: border-box;
+				padding: 15px;
+				cursor: pointer;
+				margin-left: 25px;
+				height: 55px;
+				transition: all ease 0.4s;
+
+				&:hover {
+					background: #f9f9f9;
+				}
+
+				svg {
+					width: 24px;
+					height: 24px;
+				}
+			}
+		}
+	}
 }

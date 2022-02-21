@@ -1,6 +1,11 @@
 .Header {
 	padding: 25px 0;
 	box-sizing: border-box;
+	position: sticky;
+	top: 0;
+	z-index: 999;
+	background: #ffffff;
+	box-shadow: rgba(0, 0, 0, 0.09) 0px 25px 20px -20px;
 
 	&-inner {
 		display: flex;

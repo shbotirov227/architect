@@ -13,9 +13,9 @@ import GalleryImg7 from "../../assets/images/galleryImg7.png";
 import GalleryImg8 from "../../assets/images/galleryImg8.png";
 import GalleryImg9 from "../../assets/images/galleryImg9.png";
 import GalleryImg10 from "../../assets/images/galleryImg10.png";
+import { ArrowLeft, ArrowRight } from "../../assets/icons/icons";
 
 import "./Gallery.scss";
-import { ArrowLeft, ArrowRight } from "../../assets/icons/icons";
 
 class Gallery extends React.Component {
 	// const [count, setCount] = useState(1);
@@ -34,7 +34,7 @@ class Gallery extends React.Component {
 	}
 
 	decrement() {
-		if (this.count > 0) this.setCount(this.count - 1);
+		if (this.count > 1) this.setCount(this.count - 1);
 	}
 
 	next() {
